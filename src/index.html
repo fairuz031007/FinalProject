@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping list for user</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel = "stylesheet" href = "index.css">
+</head>
+<body>
+
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo"> <img src="img/logo2.png"  width="140px" height="auto"></label>
+    <ul>
+      <li><a href="HOME.html">HOME</a></li>
+      <li><a class="active" href="index.html">GROCERY LIST</a></li>
+      <li><a href="#" onclick="self.close();">EXIT</a></li>
+    </ul>
+  </nav>
+
+  <div class = "container">
+    <div class = "meal-wrapper">
+      <div class = "meal-search">
+        <h1 class="main_title">Grocery List</h1>
+        <p>Let's make a list before shopping<br>create and save them here!</p>
+        <div class = "meal-search-box">
+          <div class="notes_title">
+            <label>Title:</label>
+            <input type = "text" class = "search-control" id="fileName" placeholder="eg: mondaygroceries.txt">
+          </div>
+        </div>
+        <div class = "meal-search-box">
+          <div>
+            <label>Notes:</label>
+            <textarea id="fileContents" class="search-control" rows="10" cols="60"></textarea>
+          </div>
+        </div>
+          <button id="btnCreate" class="btn btn-default">Create new list</button>
+          <button id="btnRead" class="btn btn-default">Open list</button>
+          <button id="btnDelete" class="btn btn-default">Delete</button>
+          <button id="btnUpdate" class="btn btn-default">Update list</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
+

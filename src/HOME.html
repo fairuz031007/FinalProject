@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Food Website Design</title>
+	<link rel="stylesheet" type="text/css" href="homestyle.css">
+
+	<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+</head>
+<body>
+
+	<!---header section--->
+	<header>
+		<img class="logo" src="img/logo2.png">
+
+		<ul class="navbar">
+			<li><a href="#home">HOME</a></li>
+			<li><a href="#about">ABOUT</a></li>
+			<li><a href="MEALS.html">RECIPES</a></li>
+			<li><a href="index.html">GROCERY LIST</a></li>
+			<li><a href="#" onclick="self.close();">EXIT</a></li>
+			
+		</ul>
+
+		<div class="h-icons">
+			<a href="MEALS.html"><i class='bx bx-search'></i></a>
+			<div class="bx bx-menu" id="menu-icon"></div>
+		</div>
+	</header>
+
+	<!---home section--->
+	<section class="home" id="home">
+		<div class="home-text">
+			<h1><span>It's a cook time!</span> what would you like to cook ?</h1>
+			<p>Find best recipe for cooking</p>
+			<a href="MEALS.html" class="btn">Find Recipes</a>
+		</div>
+
+		<div class="home-img">
+			<img src="img/main_img.png">
+		</div>
+	</section>
+
+	<!---container section--->
+	<section class="container">
+		<div class="main-text">
+			<h2>Category</h2>
+		</div>
+
+		<div class="container-box">
+			<div class="c-mainbx">
+				<div class="container-img">
+					<img src="img/b1.png" width="130px" height="auto">
+				</div>
+				<div class="container-text">
+					<p>Cook now</p>
+				</div>
+			</div>
+
+			<div class="c-mainbx">
+				<div class="container-img">
+					<img src="img/b2.png" width="130px" height="auto">
+				</div>
+				<div class="container-text">
+					<p>Breakfast</p>
+				</div>
+			</div>
+
+			<div class="c-mainbx">
+				<div class="container-img">
+					<img src="img/b3.png" width="150px" height="auto">
+				</div>
+				<div class="container-text">
+					<p>Main dishes</p>
+				</div>
+			</div>
+
+			<div class="c-mainbx">
+				<div class="container-img">
+					<img src="img/b4.png" width="140px" height="auto">
+				</div>
+				<div class="container-text">
+					<p>Side dishes</p>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!---about section--->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/nasilemak.png">
+		</div>
+		<div class="about-text">
+			<h2>Find best meals recipes with <span>myrecipes apps</span></h2>
+			<p>Cooking experience like a chef.<br>Let's make a delicious meal with the best recipe for the family members and friends</p>
+			<a href="MEALS.html" class="btn">Cook now</a>
+		</div>
+	</section>
+
+	<!---shopping info section--->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/cart.png">
+		</div>
+		<div class="about-text">
+			<p>There is only one thing that you write for yourself<br>and that is a shopping list</p>
+			<a href="index.html" class="btn">Grocery list</a>
+		</div>
+		
+	</section>
+
+	<!---menu section--->
+	<section class="menu" id="menu">
+		<div class="main-text">
+			<h2 style="margin-bottom: 5px;">Most Popular Recipes</h2>
+		</div>
+
+		<div class="menu-content">
+			<div class="row">
+				<img src="img/m1.jpg">
+				<div class="menu-text">
+					<div class="menu-left">
+						<h4>Chicken rendang</h4>
+					</div>
+					<div class="menu-right">
+						<i class='bx bxs-heart' ></i>
+					</div>
+				</div>
+				<p>Chop the spice paste ingredients and then blend it in a food processor until fine. Heat the oil in a stew pot, add the spice paste, cinnamon ...</p>
+				<div class="star">
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/m2.jpg">
+				<div class="menu-text">
+					<div class="menu-left">
+						<h4>Tandoori Chicken</h4>
+					</div>
+					<div class="menu-right">
+						<i class='bx bxs-heart' ></i>
+					</div>
+				</div>
+				<p>Mix the lemon juice with the paprika and red onions in a large shallow dish. Slash each chicken thigh three times, then turn them in the juice ...</p>
+				<div class="star">
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/m3.jpg">
+				<div class="menu-text">
+					<div class="menu-left">
+						<h4>Mee goreng mamak</h4>
+					</div>
+					<div class="menu-right">
+						<i class='bx bxs-heart' ></i>
+					</div>
+				</div>
+				<p>Heat oil in a pan at medium heat. Then, add peanuts, dried chilies, dried shrimps and dhal. Fry the aromatics until fragrant ...</p>
+				<div class="star">
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/m4.jpg">
+				<div class="menu-text">
+					<div class="menu-left">
+						<h4>Chicken Fajita Mac and Cheese</h4>
+					</div>
+					<div class="menu-right">
+						<i class='bx bxs-heart' ></i>
+					</div>
+				</div>
+				<p>Fry your onion, peppers and garlic in olive oil until nicely translucent. Make a well in your veg and add your chicken ...</p>
+				<div class="star">
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+	<div class="last-text">
+		<p>© 2022 myrecipes. designed by fairuz.fdzl</p>
+	</div>
+
+	<!---scroll top--->
+	<a href="#home" class="scroll-top">
+		<i class='bx bx-up-arrow-alt' ></i>
+	</a>
+
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+	<!---custom js link--->
+	<script type="text/javascript" src="home.js"></script>
+
+</body>
+</html>
